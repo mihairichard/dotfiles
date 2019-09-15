@@ -8,3 +8,6 @@ sudo apt-get install fonts-powerline
 
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# install rofi, compton
+cp config ~/.config/i3/
