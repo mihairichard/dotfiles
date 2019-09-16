@@ -42,6 +42,10 @@ bindsym XF86AudioPrev exec playerctl previous
 bindsym XF86MonBrightnessUp exec light -A 5
 bindsym XF86MonBrightnessDown exec light -U 5
 
+# Mac keyboard brightness
+bindsym XF86KbdBrightnessUp exec kbdbacklight up
+bindsym XF86KbdBrightnessDown exec kbdbacklight down
+
 # Set background image
 #exec_always feh --bg-scale ~/.img/bg.jpg
 exec_always xsetroot -solid "#333333"
